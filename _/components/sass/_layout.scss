@@ -1,5 +1,8 @@
 // Grid system ---------------------------------
-
+.container-fluid {
+	max-width: 1680px;
+	padding: $medium;
+}
 
 // Global ----------------------------------------
 /*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack*/
