@@ -3,6 +3,10 @@
 	max-width: 1680px;
 	padding: $medium;
 }
+.row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
 
 // Global ----------------------------------------
 /*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack*/
@@ -51,4 +55,13 @@
 
 // Body ---------------------------------------
 
-
+.section2 {
+	img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	h2, h3 {
+		text-align: center;
+	}
+}
