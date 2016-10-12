@@ -12,19 +12,31 @@
 
 
 
+body {
+	background-color: $primary-orange;
+}
 
 .section2 {
-	background-color: $milk;
+	background-color: #fff;
 }
 
 .section3 {
-	background-color: $milk;
+	background-color: #fff;
 }
 
 .section4 {
 	background-color: $primary-orange;
 	color: $milk;
 }
+
+.section5 {
+	background-color: #fff;
+}
+
+.section6 {
+	background-color: #fff;
+}
+
 .blockquote {
 	border-left: 5px solid $milk;
 	padding-left: $large;
