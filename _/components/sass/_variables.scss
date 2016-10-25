@@ -1,6 +1,8 @@
 // Typography ---------------------------------------------
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
 
 // Fonts
+$logo                   : 'Alfa Slab One', sans-serif;
 $display-font			: sans-serif;
 $base-font				: sans-serif;
 
@@ -25,6 +27,9 @@ $grey-two				: #e0e0e0;
 $grey-three				: #bdbdbd;
 $grey-four				: #939598;
 $grey-five				: #757575;
+
+// Black
+$ink                    : #212121;
 
 
 // Spacing ------------------------------------------------

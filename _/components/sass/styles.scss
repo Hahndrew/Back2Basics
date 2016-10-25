@@ -19,13 +19,14 @@ body {
 .tagline {
 	text-align: center;
 	h1 {
-		color: #fff;
-		font-weight: 700;
+		font-family: $logo;
+		letter-spacing: 3px;
+		color: $grey-one;
 	}
 	color: #fff;
 	font-weight: 600;
-	font-size: 3.6rem;
-	line-height: 4.8rem;
+	font-size: 2.4rem;
+	line-height: 3.0rem;
 }
 
 .section2 {
