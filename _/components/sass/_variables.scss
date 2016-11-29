@@ -1,17 +1,18 @@
 // Typography ---------------------------------------------
-@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Patua+One|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('http://cloud.typography.com/7908354/734746/css/fonts.css');
+
 
 // Fonts
 $logo                   : 'Alfa Slab One', sans-serif;
-$display-font			: 'Patua One', cursive;
-$base-font				: 'Roboto', sans-serif;
+$display-font			: 'Gotham A', 'Gotham B', sans-serif;
+$base-font				: 'Gotham SSm A', 'Gotham SSm B', sans-serif;
 
 
 // Colors -------------------------------------------------
 
 // Theme Colors
 $primary-orange			: #F0631E;
-
 $milk					: #ECEDDF;
 
 

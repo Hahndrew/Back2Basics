@@ -67,12 +67,12 @@
 // Advanced Basketball Skills Training
 .section2 {
 	padding: $medium;
-	padding-top: 90px;
-	padding-bottom: 90px;
+	padding-top: 66px;
+	padding-bottom: 66px;
 
 	.section2-title {
 		text-align: center;
-		margin-bottom: 72px;
+		margin-bottom: 66px;
 		h2 {
 			margin-bottom: $tiny;
 		}
@@ -96,6 +96,17 @@
 // Break Image
 .break1 {
 	height: 100%;
+	display: inline-block;
+	background:
+		linear-gradient(
+			rgba(0, 0, 0, 0.6),
+			rgba(0, 0, 0, 0.6)
+		);
+	img {
+		position: relative;
+		z-index: -1;
+		display: block;
+	}
 }
 
 // More Info - Individual & Team Lessons
