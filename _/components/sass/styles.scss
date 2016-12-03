@@ -19,19 +19,45 @@ body {
 	text-align: center;
 	h1 {
 		font-family: $logo;
-		letter-spacing: 3px;
+		font-size: 6.0rem;
+		line-height: 6.0rem;
+		letter-spacing: 5px;
 		color: $grey-one;
+		color: #FF9F07;
 	}
 	color: #fff;
-	font-weight: 300;
+	font-weight: 200;
 	font-size: 2.4rem;
 	line-height: 3.0rem;
 }
 
+// --------------------------- Advanced Basketball Skills Training
 .section2 {
 	background-color: #fff;
+	.section2-title {
+		h3 {
+			font-size: 3.2rem;
+			line-height: 3.6rem;
+			margin-bottom: 3.0rem;
+			font-weight: 800;
+		}
+	}
+	h2 {
+		font-size: 4.8rem;
+		font-weight: 200;
+	}
+	h3 {
+		font-size: 2.6rem;
+		line-height: 3.0rem;
+		font-weight: 800;
+	}
+	p {
+		text-align: center;
+	}
 }
 
+
+// -------------------------------------------------- Break Image
 .section3 {
 	background-color: #fff;
 }

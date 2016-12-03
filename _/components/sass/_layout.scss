@@ -64,28 +64,24 @@
 
 // Body ----------------------------------------------------------
 
-// Advanced Basketball Skills Training
+// --------------------------- Advanced Basketball Skills Training
 .section2 {
-	padding: $medium;
-	padding-top: 66px;
-	padding-bottom: 66px;
-
+	padding-top: 10.2rem;
+	padding-bottom: 10.2rem;
 	.section2-title {
 		text-align: center;
-		margin-bottom: 66px;
-		h2 {
-			margin-bottom: $tiny;
-		}
+		margin-bottom: 9.6rem;
 	}
 	.section2-image {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: $xxlarge;
+		max-height: 200px;
 	}
 	.section2-subtitle {
 		text-align: center;
-		margin-bottom: $xxlarge;
+		margin-bottom: 5.2rem;
 	}
 	.section2-paragraph {
 		padding-left: $large;
@@ -93,7 +89,7 @@
 	}
 }
 
-// Break Image
+// -------------------------------------------------- Break Image
 .break1 {
 	height: 100%;
 	display: inline-block;
