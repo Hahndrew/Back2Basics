@@ -19,16 +19,17 @@ body {
 	text-align: center;
 	h1 {
 		font-family: $logo;
-		font-size: 6.0rem;
-		line-height: 6.0rem;
+		font-size: 5.4rem;
+		line-height: 5.4rem;
 		letter-spacing: 5px;
-		color: $grey-one;
 		color: #FF9F07;
+		color: #fff;
+		color: $grey-one;
 	}
 	color: #fff;
-	font-weight: 200;
 	font-size: 2.4rem;
 	line-height: 3.0rem;
+	font-weight: 200;
 }
 
 // --------------------------- Advanced Basketball Skills Training
@@ -62,9 +63,11 @@ body {
 	background-color: #fff;
 }
 
+// -------------------------------------------------- 
 .section4 {
 	background-color: $primary-orange;
-	color: $milk;
+	background-color: #FF9F07;
+	color: $paleblack-base;
 }
 
 .section5 {
@@ -76,19 +79,20 @@ body {
 }
 
 .blockquote {
-	border-left: 5px solid $milk;
+	border-left: 3px solid $paleblack-base;
 	padding-left: $large;
 }
 
 .quote {
 	font-size: 24px;
-	line-height: 36px;
+	font-size: 2.1rem;
+	line-height: 3.0rem;
 }
 
 .quote-source {
 	float: right;
 	margin-top: $small;
-	color: $milk;
+	color: $paleblack-base;
 	font-size: 18px;
 	line-height: 24px;
 }
