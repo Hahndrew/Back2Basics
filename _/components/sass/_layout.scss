@@ -90,6 +90,7 @@
 }
 
 // -------------------------------------------------- Break Image
+
 .break1 {
 	height: 100%;
 	display: inline-block;
@@ -104,6 +105,19 @@
 		display: block;
 	}
 }
+
+/*
+.break1 {
+	height: 450rem;
+	background: url(../../images/image3.jpg) no-repeat center center fixed;
+	background-image:
+		linear-gradient(
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)
+		),
+		url(../../images/image3.jpg);
+}
+*/
 
 // More Info - Individual & Team Lessons
 .section3 {
