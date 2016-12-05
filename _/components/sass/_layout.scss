@@ -109,7 +109,8 @@
 /*
 .break1 {
 	height: 450rem;
-	background: url(../../images/image3.jpg) no-repeat center center fixed;
+	background-image: url(../../images/image3.jpg);
+	background-repeat: no-repeat;
 	background-image:
 		linear-gradient(
 			rgba(0, 0, 0, 0.5),
