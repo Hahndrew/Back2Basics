@@ -108,11 +108,16 @@
 
 // SECTION 3: Credentials -------------------------------------
 .section3 {
-	.section3-right {
+	padding-top: 10.2rem;
+	padding-bottom: 10.2rem;
+	div.section3-right {
+		padding-left: 6.0rem;
+		padding-right: 6.0rem;
 		h2 {
-			text-align: center;
-			margin-top: $xxxxlarge;
-			margin-bottom: $xxlarge;
+			margin-bottom: $large;
+		}
+		p {
+			margin-bottom: $large;
 		}
 	}
 	.col-lg-6 {
@@ -129,7 +134,8 @@
 			margin-bottom: $xxlarge;
 		}
 		ul {
-			margin-left: 57px;
+			margin-left: 5.7rem;
+			margin-left: 3.9rem;
 		}
 	}
 	.col-lg-5, .col-lg-6, .col-lg-7 {
