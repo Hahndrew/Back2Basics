@@ -37,6 +37,7 @@
 }
 */
 
+// SECTION 1: Intro -----------------------------------------
 .section1 {
 	background: url(../../images/image1.jpg) no-repeat center center fixed;
 	background-image:
@@ -61,10 +62,7 @@
 	}
 }
 
-
-// Body ----------------------------------------------------------
-
-// Advanced Basketball Skills Training ---------------------------
+// SECTION 2: About -----------------------------------------
 .section2 {
 	padding-top: 10.2rem;
 	padding-bottom: 10.2rem;
@@ -108,24 +106,24 @@
 	}
 }
 
-/*
-.break1 {
-	height: 450rem;
-	background-image: url(../../images/image3.jpg);
-	background-repeat: no-repeat;
-	background-image:
-		linear-gradient(
-			rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 0.5)
-		),
-		url(../../images/image3.jpg);
-}
-*/
-
-// More Info - Individual & Team Lessons
+// SECTION 3: Credentials -------------------------------------
 .section3 {
-	.section3-left {
-		h3 {
+	.section3-right {
+		h2 {
+			text-align: center;
+			margin-top: $xxxxlarge;
+			margin-bottom: $xxlarge;
+		}
+	}
+	.col-lg-6 {
+		padding: 0px;
+	}
+}
+
+// SECTION 4: Logistics -------------------------------------
+.section4 {
+	.section4-left {
+		h2 {
 			text-align: center;
 			margin-top: $xxxxlarge;
 			margin-bottom: $xxlarge;
@@ -139,8 +137,8 @@
 	}
 }
 
-// Testimonials
-.section4 {
+// SECTION 5: Testimonials ---------------------------------------
+.section5 {
 	padding: $medium;
 	padding-top: 90px;
 	padding-bottom: 90px;
@@ -162,21 +160,7 @@
 	}
 }
 
-// Credentials
-.section5 {
-	.section5-right {
-		h3 {
-			text-align: center;
-			margin-top: $xxxxlarge;
-			margin-bottom: $xxlarge;
-		}
-	}
-	.col-lg-6 {
-		padding: 0px;
-	}
-}
-
-// Contact Info
+// SECTION 6: Contact ----------------------------------------
 .section6 {
 	padding: $medium;
 	padding-top: 90px;
