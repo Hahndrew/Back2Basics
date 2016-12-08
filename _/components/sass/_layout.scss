@@ -66,9 +66,17 @@
 .section2 {
 	padding-top: 10.2rem;
 	padding-bottom: 10.2rem;
+	padding-left: 6.0rem;
+	padding-right: 6.0rem;
 	.section2-title {
 		text-align: center;
 		margin-bottom: 9.6rem;
+	}
+	.basketball-iq {
+		padding-left: 0rem;
+	}
+	.shooting {
+		padding-right: 0rem;
 	}
 	.section2-image {
 		display: block;
@@ -80,10 +88,6 @@
 	.section2-subtitle {
 		text-align: center;
 		margin-bottom: 5.2rem;
-	}
-	.section2-paragraph {
-		padding-left: $large;
-		padding-right: $large;
 	}
 }
 
@@ -127,15 +131,13 @@
 
 // SECTION 4: Logistics -------------------------------------
 .section4 {
+	padding-left: 6.0rem;
 	.section4-left {
 		h2 {
-			text-align: center;
-			margin-top: $xxxxlarge;
-			margin-bottom: $xxlarge;
+			margin-top: 3.0rem;
+			margin-bottom: 2.4rem;
 		}
 		ul {
-			margin-left: 5.7rem;
-			margin-left: 3.9rem;
 		}
 	}
 	.col-lg-5, .col-lg-6, .col-lg-7 {
