@@ -32,7 +32,7 @@ body {
 	font-weight: 200;
 }
 
-// SECTION 2: About ---------------------------
+// SECTION 2: About ----------------------------------------
 .section2 {
 	background-color: #fff;
 	.section2-title {
@@ -64,7 +64,7 @@ body {
 }
 
 
-// Break Image --------------------------------------------------
+// Break Image ------------------------------------------------
 .break-image {
 	background:
 		linear-gradient(
@@ -85,7 +85,7 @@ body {
 }
 
 
-// SECTION 3: Credentials -------------------------------------------------------------- 
+// SECTION 3: Credentials ------------------------------------- 
 .section3 {
 	background-color: #fff;
 }
@@ -97,30 +97,29 @@ body {
 
 // SECTION 5: Testimonials --------------------------------------------------------------
 .section5 {
-	background-color: $primary-orange;
-	background-color: #FF9F07;
+	background-color: #f0f0f0;
 	color: $paleblack-base;
 }
 .blockquote {
 	border-left: 3px solid $paleblack-base;
 	padding-left: $large;
 }
-
 .quote {
-	font-size: 24px;
 	font-size: 2.1rem;
 	line-height: 3.0rem;
 }
-
 .quote-source {
 	float: right;
 	margin-top: $small;
 	color: $paleblack-base;
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 1.8rem;
+	line-height: 2.4rem;
 }
 
-// SECTION 6: Contact --------------------------------------------------------------
+// SECTION 6: Contact -----------------------------------------
 .section6 {
 	background-color: #fff;
+	h2 {
+		text-align: center;
+	}
 }

@@ -23,6 +23,11 @@
 	zoom:1;
 }
 
+.last-p {
+	padding-bottom: 0px !important;
+	margin-bottom: 0px !important;
+}
+
 
 // Header -------------------------------------------------------
 /*
@@ -112,11 +117,15 @@
 
 // SECTION 3: Credentials -------------------------------------
 .section3 {
+	padding-left: 6.0rem;
 	padding-top: 10.2rem;
+	padding-right: 6.0rem;
 	padding-bottom: 10.2rem;
+	.section3-left {
+		padding-left: 6.0rem;
+	}
 	div.section3-right {
 		padding-left: 6.0rem;
-		padding-right: 6.0rem;
 		h2 {
 			margin-bottom: $large;
 		}
@@ -131,25 +140,31 @@
 
 // SECTION 4: Logistics -------------------------------------
 .section4 {
-	padding-left: 6.0rem;
-	.section4-left {
-		h2 {
-			margin-top: 3.0rem;
-			margin-bottom: 2.4rem;
-		}
-		ul {
-		}
-	}
 	.col-lg-5, .col-lg-6, .col-lg-7 {
 		padding: 0px;
+	}
+	padding-left: 6.0rem;
+	.section4-left {
+		padding-right: 6.0rem;
+		h2 {
+			//margin-top: 3.0rem;
+			margin-bottom: 4.2rem;
+		}
+		ul {
+			padding-left: 3.0rem;
+			list-style-type: square;
+			li {
+				padding-bottom: 1.8rem;
+			}
+		}
 	}
 }
 
 // SECTION 5: Testimonials ---------------------------------------
 .section5 {
-	padding: $medium;
-	padding-top: 90px;
-	padding-bottom: 90px;
+	padding: 6.0rem;
+	padding-top: 10.2rem;
+	padding-bottom: 10.2rem;
 	/* Uncomment if image is staying
 	.section4-testimonial1 {
 		margin-bottom: $xxlarge;
@@ -170,7 +185,7 @@
 
 // SECTION 6: Contact ----------------------------------------
 .section6 {
-	padding: $medium;
-	padding-top: 90px;
-	padding-bottom: 90px;
+	padding: 6.0rem;
+	padding-top: 10.2rem;
+	padding-bottom: 10.2rem;
 }
