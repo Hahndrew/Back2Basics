@@ -1,6 +1,6 @@
 // Grid system ---------------------------------------------------
 .container-fluid {
-	max-width: 1680px;
+	max-width: 1600px;
 	padding: 0px;
 }
 .row {
@@ -149,6 +149,13 @@
 
 // SECTION 4: Testimonials ---------------------------------------
 .section4 {
+	background: url(../../images/image4.jpg) no-repeat center center fixed;
+	background-image:
+		linear-gradient(
+			rgba(0, 0, 0, 0.3),
+			rgba(0, 0, 0, 0.3)
+		),
+		url(../../images/image4.jpg);
 	padding: 6.0rem;
 	padding-top: 10.2rem;
 	padding-bottom: 10.2rem;
@@ -161,6 +168,7 @@
 		}
 	}
 }
+
 
 // SECTION 5: Logistics -------------------------------------
 .section5 {

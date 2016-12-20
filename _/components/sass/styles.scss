@@ -89,14 +89,18 @@ body {
 .section3 {
 	background-color: #fff;
 }
+.highlight {
+	background-color: $paleblack-base;
+	color: #fff;
+}
 
 // SECTION 4: Testimonials --------------------------------------------------------------
 .section4 {
 	background-color: #f0f0f0;
-	color: $paleblack-base;
+	color: #fff;
 }
 .blockquote {
-	border-left: 3px solid $paleblack-base;
+	border-left: 3px solid #fff;
 	padding-left: $large;
 }
 .quote {
@@ -106,7 +110,7 @@ body {
 .quote-source {
 	float: right;
 	margin-top: $small;
-	color: $paleblack-base;
+	color: #fff;
 	font-size: 1.8rem;
 	line-height: 2.4rem;
 }
