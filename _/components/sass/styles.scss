@@ -39,7 +39,7 @@ body {
 		h2 {
 			//font-size: 3.2rem;
 			//line-height: 3.6rem;
-			margin-bottom: 3.0rem;
+			margin-bottom: 2.4rem;
 			//font-weight: 800;
 		}
 		p {
@@ -49,15 +49,6 @@ body {
 			line-height: 4.8rem;
 		}
 	}
-	//h2 {
-	//	font-size: 4.8rem;
-	//	font-weight: 200;
-	//}
-	//h3 {
-	//	font-size: 2.6rem;
-	//	line-height: 3.0rem;
-	//	font-weight: 800;
-	//}
 	p {
 		text-align: center;
 	}
@@ -89,6 +80,11 @@ body {
 .section3 {
 	background-color: #fff;
 }
+.section3-left {
+	h2 > span {
+		font-weight: 200;
+	}
+}
 .highlight {
 	background-color: $paleblack-base;
 	color: #fff;
@@ -98,10 +94,6 @@ body {
 .section4 {
 	background-color: #f0f0f0;
 	color: #fff;
-}
-.blockquote {
-	border-left: 3px solid #fff;
-	padding-left: $large;
 }
 .quote {
 	font-size: 2.1rem;
