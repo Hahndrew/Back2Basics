@@ -150,8 +150,8 @@
 	background: url(../../images/image4.jpg) no-repeat center center fixed;
 	background-image:
 		linear-gradient(
-			rgba(0, 0, 0, 0.3),
-			rgba(0, 0, 0, 0.3)
+			rgba(0, 0, 0, 0.4),
+			rgba(0, 0, 0, 0.4)
 		),
 		url(../../images/image4.jpg);
 	padding: 6.0rem;
@@ -173,10 +173,10 @@
 	.col-lg-5, .col-lg-6, .col-lg-7 {
 		padding: 0px;
 	}
-	padding-left: 6.0rem;
 	.section5-left {
 		padding-top: 6.0rem;
 		padding-right: 6.0rem;
+		padding-left: 6.0rem;
 		h2 {
 			margin-bottom: $xxxlarge;
 		}
@@ -186,6 +186,11 @@
 			li {
 				padding-bottom: 1.8rem;
 			}
+		}
+	}
+	.section5-right {
+		img {
+			max-height: 702px;
 		}
 	}
 }
