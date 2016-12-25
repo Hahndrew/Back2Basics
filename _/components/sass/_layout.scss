@@ -196,4 +196,15 @@
 	padding: 6.0rem;
 	padding-top: 10.2rem;
 	padding-bottom: 10.2rem;
+	h2 {
+		margin-bottom: $xxxlarge;
+	}
+	ul {
+		margin: 0 auto;
+		padding: 6.0rem;
+		li {
+			margin-top: $small;
+			margin-bottom: $small;
+		}
+	}
 }
