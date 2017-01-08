@@ -47,38 +47,19 @@ body {
 	}
 
 
-// Break Image ------------------------------------------------
-.break-image {
-	background:
-		linear-gradient(
-			rgba(0, 0, 0, 0.4),
-			rgba(0, 0, 0, 0.4)
-		);
-	p {
-		color: #fff;
-		font-size: 2.4rem;
-		line-height: 3.0rem;
-		font-weight: 700;
-		span {
-			background: rgb(0, 0, 0);
-			background: rgba(0, 0, 0, 0.7);
-			padding: 1.8rem;
-		}
-	}
-}
-
-
-// SECTION 3: Credentials ------------------------------------- 
+// SECTION 3: Testimonials 1 -------------------------------
 .section3 {
-	background-color: #fff;
-}
-.highlight {
-	background-color: $paleblack-base;
 	color: #fff;
 }
 
-// SECTION 4: Testimonials --------------------------------------------------------------
+
+// SECTION 4: Credentials ---------------------------------- 
 .section4 {
+	background-color: #fff;
+}
+
+// SECTION 5: Testimonials 2 --------------------------------
+.section5 {
 	background-color: #f0f0f0;
 	color: #fff;
 }
@@ -94,13 +75,13 @@ body {
 	line-height: 2.4rem;
 }
 
-// SECTION 5: Logistics -------------------------------------------------------------- 
-.section5 {
+// SECTION 6: Logistics ------------------------------------ 
+.section6 {
 	background-color: #fff;
 }
 
-// SECTION 6: Contact -----------------------------------------
-.section6 {
+// SECTION 7: Contact --------------------------------------
+.section7 {
 	background-color: #fff;
 	h2 {
 		text-align: center;

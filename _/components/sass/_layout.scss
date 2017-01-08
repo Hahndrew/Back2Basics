@@ -18,16 +18,6 @@ $susy: (
 
 @include border-box-sizing;
 
-/*
-html, body {
-	width: 100%;
-	height: 100%;
-	margin: 0px;
-	padding: 0px;
-	overflow-x: hidden;
-}
-*/
-
 body {
 	@include container;
 }
@@ -86,7 +76,7 @@ body {
 	}
 	img {
 		width: 100%;
-		max-width: 246px;
+		max-width: 24.6rem;
 		height: auto;
 		display: block;
 		margin-left: auto;
@@ -95,27 +85,29 @@ body {
 	}
 }
 
-// Break Image --------------------------------------------------
-.break-image {
-	position: relative;
-	display: inline-block;
-	img {
-		width: 100%;
-		max-height: 52.8rem;
-		position: relative;
-		z-index: -1;
-		display: block;
-	}
-	p {
-		position: absolute;
-		top: 30.0rem;
-		left: 10.0rem;
-		width: 100%;
+// SECTION 3: Testimonials 1 -------------------------------
+.section3 {
+	background: url(../../images/image3.jpg) no-repeat center center;
+	background-image:
+		linear-gradient(
+			rgba(0, 0, 0, 0.4),
+			rgba(0, 0, 0, 0.4)
+		),
+		url(../../images/image3.jpg);
+	width: 100%;
+	max-width: 144.0rem;
+	height: 52.8rem;
+	.blockquote {
+		@include push(3);
+		@include span(6);
+		p {
+			margin-bottom: $large;
+		}
 	}
 }
 
-// SECTION 3: Credentials -------------------------------------
-.section3 {
+// SECTION 4: Credentials -------------------------------------
+.section4 {
 	@include clearfix;
 	padding-top: 10.2rem;
 	padding-bottom: 10.2rem;
@@ -125,18 +117,18 @@ body {
 	}
 	img {
 		width: 100%;
-		max-width: 175px;
+		max-width: 17.5rem;
 		height: auto;
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
 		margin-bottom: $xxlarge;
 	}
-	.section3-left {
+	.section4-left {
 		@include push(2);
 		@include span(4);
 	}
-	.section3-right {
+	.section4-right {
 		@include span(4);
 	}
 	p {
@@ -145,8 +137,8 @@ body {
 		}
 }
 
-// SECTION 4: Testimonials ---------------------------------------
-.section4 {
+// SECTION 5: Testimonials 2 ----------------------------------
+.section5 {
 	background: url(../../images/image4.jpg) no-repeat center center fixed;
 	background-image:
 		linear-gradient(
@@ -154,15 +146,12 @@ body {
 			rgba(0, 0, 0, 0.4)
 		),
 		url(../../images/image4.jpg);
-	padding: 6.0rem;
-	padding-top: 10.2rem;
-	padding-bottom: 10.2rem;
+	width: 100%;
+	max-width: 144.0rem;
+	height: 52.8rem;
 	.blockquote {
-		padding-top: 6.0rem;
-		padding-bottom: 6.0rem;
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 50%;
+		@include push(3);
+		@include span(6);
 		p {
 			margin-bottom: $large;
 		}
@@ -170,16 +159,13 @@ body {
 }
 
 
-// SECTION 5: Logistics -------------------------------------
-.section5 {
-	.col-lg-5, .col-lg-6, .col-lg-7 {
-		padding: 0px;
-	}
-	.section5-left {
+// SECTION 6: Logistics -------------------------------------
+.section6 {
+	.section6-left {
+		@include clearfix;
+		@include span(6);
 		padding-top: 10.2rem;
-		padding-right: 6.0rem;
 		padding-bottom: 6.0rem;
-		padding-left: 6.0rem;
 		h2 {
 			margin-bottom: $xxxlarge;
 		}
@@ -191,11 +177,21 @@ body {
 			}
 		}
 	}
+	.section6-right {
+		@include span(6 last);
+		img {
+			width: 100%;
+			max-width: 72.0rem;
+			min-width: 68.0rem;
+			height: auto;
+		}
+	}
 }
 
-// SECTION 6: Contact ----------------------------------------
-.section6 {
-	padding: 6.0rem;
+// SECTION 7: Contact ----------------------------------------
+.section7 {
+	@include clearfix;
+	@include span(full);
 	padding-top: 10.2rem;
 	padding-bottom: 10.2rem;
 	h2 {
@@ -210,30 +206,3 @@ body {
 		}
 	}
 }
-
-
-
-
-// Global ----------------------------------------------
-/*micro-clearfix by Nicolas Gallagher http://nicolasgallagher.com/micro-clearfix-hack*/
-/* For modern browsers */
-/*
-.cf:before, .cf:after {
-	content:"";
-	display:table;
-}
-.cf:after {
-	clear:both;
-}
-*/
-/* For IE 6/7 (trigger hasLayout) */
-/*
-.cf {
-	zoom:1;
-}
-
-.last-p {
-	padding-bottom: 0px !important;
-	margin-bottom: 0px !important;
-}
-*/
