@@ -1,7 +1,7 @@
-@import 'https://fonts.googleapis.com/css?family=Bangers|Oswald:300,400,700';
 @import "compass";
 @import "compass/reset";
 @import "breakpoint";
+@import "susy";
 
 @import "variables";
 @import "mixins";
@@ -35,24 +35,16 @@ body {
 // SECTION 2: About ----------------------------------------
 .section2 {
 	background-color: #fff;
-	.section2-title {
-		h2 {
-			//font-size: 3.2rem;
-			//line-height: 3.6rem;
-			margin-bottom: 2.4rem;
-			//font-weight: 800;
-		}
-		p {
-			font-family: $display-font;
-			font-size: 4.8rem;
-			font-weight: 200;
-			line-height: 4.8rem;
-		}
-	}
 	p {
 		text-align: center;
 	}
 }
+.subheading {
+	font-family: $display-font;
+	font-size: 4.8rem;
+	font-weight: 200;
+	line-height: 4.8rem;
+	}
 
 
 // Break Image ------------------------------------------------
@@ -79,11 +71,6 @@ body {
 // SECTION 3: Credentials ------------------------------------- 
 .section3 {
 	background-color: #fff;
-}
-.section3-left {
-	h2 > span {
-		font-weight: 200;
-	}
 }
 .highlight {
 	background-color: $paleblack-base;
