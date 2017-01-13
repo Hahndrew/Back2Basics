@@ -103,7 +103,6 @@ body {
 
 // SECTION 3: Testimonials 1 -------------------------------
 .section3 {
-	padding: 10.2rem gutter()*2;
 	background: url(../../images/image3.jpg) no-repeat center center;
 	background-image:
 		linear-gradient(
@@ -114,9 +113,19 @@ body {
 	width: 100%;
 	max-width: 144.0rem;
 	height: 52.8rem;
+	padding: 6.0rem gutter()*2;
+
+	@media (min-width: 800px) {
+		padding-top: 10.2rem;
+		padding-bottom: 10.2rem;
+	}
 	.blockquote {
-		@include push(3);
-		@include span(6);
+		@include span(full);
+
+		@media (min-width: 800px) {
+			@include push(3);
+			@include span(6);
+		}
 		p {
 			margin-bottom: $large;
 		}
