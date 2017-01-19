@@ -70,6 +70,13 @@ body {
 
 // SECTION 3: Testimonials 1 -------------------------------
 .section3 {
+	background: url(../../images/image3.jpg) no-repeat center center;
+	background-image:
+		linear-gradient(
+			rgba(0, 0, 0, 0.4),
+			rgba(0, 0, 0, 0.4)
+		),
+		url(../../images/image3.jpg);
 	color: #fff;
 }
 
@@ -82,6 +89,13 @@ body {
 // SECTION 5: Testimonials 2 --------------------------------
 .section5 {
 	background-color: #f0f0f0;
+	background: url(../../images/image4.jpg) no-repeat center center fixed;
+	background-image:
+		linear-gradient(
+			rgba(0, 0, 0, 0.4),
+			rgba(0, 0, 0, 0.4)
+		),
+		url(../../images/image4.jpg);
 	color: #fff;
 }
 .quote {

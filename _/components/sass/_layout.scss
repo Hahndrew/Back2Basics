@@ -41,14 +41,12 @@ body {
 .section2 {
 	@include clearfix;
 	text-align: center;
-	padding: 10.2rem gutter()*2;
+	padding: 10.2rem gutter()*4;
 	header {
 		margin-bottom: 6.6rem;
-
 		h2 {
 			margin-bottom: 1.2rem;
-		}
-
+		} //h2
 		@media (min-width: 800px) {
 			margin-bottom: 9.6rem;
 		} //media
@@ -103,43 +101,42 @@ body {
 
 // SECTION 3: Testimonials 1 -------------------------------
 .section3 {
-	background: url(../../images/image3.jpg) no-repeat center center;
-	background-image:
-		linear-gradient(
-			rgba(0, 0, 0, 0.4),
-			rgba(0, 0, 0, 0.4)
-		),
-		url(../../images/image3.jpg);
 	width: 100%;
 	max-width: 144.0rem;
 	height: 52.8rem;
-	padding: 6.0rem gutter()*2;
-
-	@media (min-width: 800px) {
-		padding-top: 10.2rem;
-		padding-bottom: 10.2rem;
-	}
+	padding-right: gutter()*4;
+	padding-left: gutter()*4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	.blockquote {
-		@include span(full);
-
+		text-align: center;
 		@media (min-width: 800px) {
-			@include push(3);
-			@include span(6);
-		}
+			//@include span(6);
+		} //media
 		p {
 			margin-bottom: $large;
-		}
-	}
-}
+		} //p
+	} //blockquote
+} //section3
 
 // SECTION 4: Credentials -------------------------------------
 .section4 {
 	@include clearfix;
-	padding: 10.2rem gutter()*2;
-	h2 {
-		text-align: center;
-		margin-bottom: 3.0rem;
-	}
+	padding: 10.2rem gutter()*4;
+	header {
+		margin-bottom: 6.6rem;
+		h2 {
+			text-align: center;
+			margin-bottom: 1.2rem;
+		} //h2
+		p.subheading {
+			text-align: center;
+		}
+		@media (min-width: 800px) {
+			margin-bottom: 9.6rem;
+		} //media
+	} //header
 	img {
 		width: 100%;
 		max-width: 17.5rem;
@@ -147,42 +144,47 @@ body {
 		display: block;
 		margin-left: auto;
 		margin-right: auto;
-		margin-bottom: $xxlarge;
-	}
+		margin-bottom: 3.0rem;
+	} //img
 	.section4-left {
-		@include push(2);
-		@include span(4);
-	}
+
+		@media (min-width: 800px) {
+			@include push(2);
+			@include span(4);
+		} //media
+	} //section4-left
 	.section4-right {
-		@include span(4);
-	}
+
+		@media (min-width: 800px) {
+			@include span(4);
+		} //media
+	} //section4-right
 	p {
 		margin-bottom: $large;
 		text-align: justify;
-		}
+	} //p
 }
 
 // SECTION 5: Testimonials 2 ----------------------------------
 .section5 {
-	padding: 10.2rem gutter()*2;
-	background: url(../../images/image4.jpg) no-repeat center center fixed;
-	background-image:
-		linear-gradient(
-			rgba(0, 0, 0, 0.4),
-			rgba(0, 0, 0, 0.4)
-		),
-		url(../../images/image4.jpg);
 	width: 100%;
 	max-width: 144.0rem;
 	height: 52.8rem;
+	padding-right: gutter()*4;
+	padding-left: gutter()*4;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	.blockquote {
-		@include push(3);
-		@include span(6);
+		text-align: center;
+		@media (min-width: 800px) {
+			//@include span(6);
+			} //media
 		p {
 			margin-bottom: $large;
-		}
-	}
-}
+		} //p
+	} //blockquote
+} //seection5
 
 
 // SECTION 6: Logistics -------------------------------------
