@@ -43,7 +43,7 @@ body {
 	text-align: center;
 	padding: 10.2rem gutter()*4;
 	header {
-		margin-bottom: 6.6rem;
+		margin-bottom: 4.8rem;
 		h2 {
 			margin-bottom: 1.2rem;
 		} //h2
@@ -125,7 +125,7 @@ body {
 	@include clearfix;
 	padding: 10.2rem gutter()*4;
 	header {
-		margin-bottom: 6.6rem;
+		margin-bottom: 1.8rem;
 		h2 {
 			text-align: center;
 			margin-bottom: 1.2rem;
@@ -189,31 +189,41 @@ body {
 
 // SECTION 6: Logistics -------------------------------------
 .section6 {
-	padding: 10.2rem gutter()*2;
+	padding: 10.2rem 0;
 	.section6-left {
 		@include clearfix;
-		@include span(6);
+		padding: 0 gutter()*4;
 		h2 {
-			margin-bottom: $xxxlarge;
-		}
+			text-align: right;
+			margin-bottom: 4.8rem;
+		} //h2
 		ul {
 			padding-left: 2.0rem;
 			list-style-type: square;
 			li {
-				padding-bottom: 1.8rem;
-			}
-		}
+				padding-bottom: 2.4rem;
+			} //li
+		} //ul
+
+		@media (min-width: 800px) {
+			@include span(6);
+		} //media
 	}
 	.section6-right {
-		@include span(6 last);
+		width: 100%;
+		max-width: 144.0rem;
+		height: 52.8rem;
 		img {
 			width: 100%;
 			max-width: 72.0rem;
 			//min-width: 68.0rem;
 			height: auto;
-		}
-	}
-}
+		} //img
+		@media (min-width: 800px) {
+			@include span(6 last);
+			} //media
+	} //section6-right
+} //section6
 
 // SECTION 7: Contact ----------------------------------------
 .section7 {

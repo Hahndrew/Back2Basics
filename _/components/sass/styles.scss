@@ -114,6 +114,15 @@ body {
 .section6 {
 	background-color: #fff;
 }
+.section6-right {
+	background: url(../../images/map.jpg) no-repeat center center;
+	background-image:
+		linear-gradient(
+			rgba(0, 0, 0, 0.1),
+			rgba(0, 0, 0, 0.1)
+		),
+		url(../../images/map.jpg);
+}
 
 // SECTION 7: Contact --------------------------------------
 .section7 {
