@@ -52,7 +52,7 @@ body {
 		} //media
 	} //header
 	.intro {
-		margin-bottom: 6.0rem;
+		margin-bottom: 7.2rem;
 		li {
 			margin-bottom: 3.0rem;
 		}
@@ -202,13 +202,22 @@ body {
 	width: 100%;
 	max-width: 144.0rem;
 	height: 52.8rem;
-	text-align: center;
-	display: flex;
-	justify-content: center;
-	align-items: center;
 	h2 {
-		margin-bottom: 3.6rem;
-	}
+		padding-top: 10.2rem;
+		text-align: center;
+		margin-bottom: 7.8rem;
+	} //h2
+	div {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	} //div
+	address {
+		.name {
+			display: block;
+			text-align: center;
+		} //name
+	} //address
 } //section6
 
 // SECTION 7: Footer ----------------------------------------
