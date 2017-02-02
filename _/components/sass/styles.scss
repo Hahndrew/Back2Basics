@@ -54,6 +54,14 @@ body {
 // SECTION 2: About ----------------------------------------
 .section2 {
 	background-color: #fff;
+	.intro {
+		ul {
+			padding-top: 3.6rem;
+			padding-bottom: 3.6rem;
+			border-top: 1px solid #757575;
+			border-bottom: 1px solid #757575;
+		}
+	}
 }
 .subheading {
 	font-family: $display-font;
