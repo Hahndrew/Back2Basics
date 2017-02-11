@@ -76,8 +76,8 @@ body {
 	@media (min-width: 591px) {
 		font-size: 4.8rem;
 		line-height: 6.0rem;
-	}
-}
+	} //media
+} //subheading
 
 
 // SECTION 3: Testimonials 1 -------------------------------
@@ -127,7 +127,7 @@ body {
 	background: url(../../images/map.jpg) no-repeat center center;
 	background-image:
 		linear-gradient(
-			rgba(255, 255, 255, 0.9),
+			rgba(255, 255, 255, 0.8),
 			rgba(255, 255, 255, 0.8)
 		),
 		url(../../images/map.jpg);
