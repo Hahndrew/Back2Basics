@@ -32,7 +32,7 @@ body {
 		left: 50%;
 		transform: translateX(-50%) translateY(-50%);
 		h1 {
-			margin-bottom: $large;
+			margin-bottom: 4.8rem;
 		} //h1
 	} //tagline
 } //section1
@@ -70,7 +70,7 @@ body {
 			} //media
 		} //h3
 		p {
-			text-align: justify;
+			text-align: left;
 
 			@media (min-width: 800px) {
 				text-align: center;
@@ -170,7 +170,6 @@ body {
 	} //section4-right
 	p {
 		margin-bottom: $large;
-		text-align: justify;
 	} //p
 }
 
