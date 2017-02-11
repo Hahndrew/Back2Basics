@@ -42,24 +42,42 @@ body {
 	@include clearfix;
 	text-align: center;
 	padding: 10.2rem gutter()*4;
+	@media (min-width: 940px) {
+		padding: 10.2rem gutter()*2;
+	} //media
 	header {
 		margin-bottom: 6.0rem;
 		h2 {
 			margin-bottom: 1.2rem;
 		} //h2
-		@media (min-width: 800px) {
-			margin-bottom: 9.6rem;
+		@media (min-width: 591px) {
+			margin-bottom: 8.4rem;
 		} //media
 	} //header
 	.intro {
 		margin-bottom: 7.2rem;
+		ul {
+			margin: 0 auto;
+			@media (min-width: 591px) {
+				max-width: 70%;
+			} //media
+			@media (min-width: 1000px) {
+				max-width: 45%;
+			} //media
+		} //ul
 		li {
 			margin-bottom: 3.0rem;
-		}
+		} //li
 		li:last-child {
 			margin-bottom: 0;
+		} //li:last-child
+		@media (min-width: 591px) {
+			margin-bottom: 8.4rem;
+		} //media
+		@media (min-width: 940px) {
+			margin-bottom: 10.2rem;
 		}
-	}
+	} //intro
 	[class*='skills'] {
 		margin-bottom: 6.6rem;
 		h3 {
@@ -81,7 +99,7 @@ body {
 	.skills {
 		@include span(full);
 
-		@media (min-width: 800px) {
+		@media (min-width: 940px) {
 			@include span(4);
 		} //media
 	} //skills
@@ -89,7 +107,7 @@ body {
 		@include span(full);
 		margin-bottom: 0rem;
 
-		@media (min-width: 800px) {
+		@media (min-width: 940px) {
 			@include span(4 last);
 		} //media
 	} //skills-last
@@ -102,8 +120,8 @@ body {
 		display: block;
 		max-width: 20.4rem;
 
-		@media (min-width: 800px) {
-			max-width: 24.6rem;
+		@media (min-width: 700px) {
+			max-width: 22.2rem;
 		} //media
 	} //img
 } //section2
