@@ -12,7 +12,7 @@
 
 
 body {
-	//background-color: $primary-orange;
+	background-color: $orange;
 }
 
 // SECTION 1: Intro ----------------------------------------
@@ -35,8 +35,6 @@ body {
 			font-size: 5.4rem;
 			line-height: 5.4rem;
 			letter-spacing: 5px;
-			color: #FF9F07;
-			color: #fff;
 			color: $grey-one;
 		} //h1
 		font-weight: 200;
@@ -53,13 +51,13 @@ body {
 
 // SECTION 2: About ----------------------------------------
 .section2 {
-	background-color: #fff;
+	background-color: $background;
 	.intro {
 		.empty {
 			margin: 0 auto;
 			width: 30%;
 			width: 4.0rem;
-			border-top: 3px solid #212121;
+			border-top: 3px solid $blue;
 		} //empty
 		ul {
 			padding-top: 3.6rem;
@@ -71,6 +69,7 @@ body {
 	font-family: $display-font;
 	font-weight: 200;
 	font-size: 3.0rem;
+	color: #212121;
 	line-height: 4.2rem;
 
 	@media (min-width: 591px) {
@@ -85,8 +84,8 @@ body {
 	background: url(../../images/image3.jpg) no-repeat center center;
 	background-image:
 		linear-gradient(
-			rgba(0, 0, 0, 0.4),
-			rgba(0, 0, 0, 0.4)
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)
 		),
 		url(../../images/image3.jpg);
 	color: #fff;
@@ -95,7 +94,7 @@ body {
 
 // SECTION 4: Credentials ---------------------------------- 
 .section4 {
-	background-color: #fff;
+	background-color: $background;
 }
 
 // SECTION 5: Testimonials 2 --------------------------------
@@ -104,8 +103,8 @@ body {
 	background: url(../../images/image4.jpg) no-repeat center center fixed;
 	background-image:
 		linear-gradient(
-			rgba(0, 0, 0, 0.4),
-			rgba(0, 0, 0, 0.4)
+			rgba(0, 0, 0, 0.5),
+			rgba(0, 0, 0, 0.5)
 		),
 		url(../../images/image4.jpg);
 	color: #fff;
