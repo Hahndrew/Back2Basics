@@ -12,7 +12,7 @@
 
 
 body {
-	background-color: $orange;
+	background-color: $background;
 }
 
 // SECTION 1: Intro ----------------------------------------
@@ -20,8 +20,8 @@ body {
 	background: url(../../images/image1.jpg) no-repeat center center fixed;
 	background-image:
 		linear-gradient(
-			rgba(0, 0, 0, 0.5),
-			rgba(0, 0, 0, 0.5)
+			rgba(0, 0, 0, 0.6),
+			rgba(0, 0, 0, 0.6)
 		),
 		url(../../images/image1.jpg);
 	-webkit-background-size: cover;
@@ -51,15 +51,17 @@ body {
 
 // SECTION 2: About ----------------------------------------
 .section2 {
-	background-color: $background;
-	.intro {
+	background-color: #fff;
+	.logistics {
+		background-color: $orange;
 		.empty {
 			margin: 0 auto;
 			width: 30%;
 			width: 4.0rem;
-			border-top: 3px solid $blue;
+			border-top: 3px solid $orange;
 		} //empty
 		ul {
+			background-color: $background;
 			padding-top: 3.6rem;
 			padding-bottom: 3.6rem;
 		} //ul
@@ -94,12 +96,12 @@ body {
 
 // SECTION 4: Credentials ---------------------------------- 
 .section4 {
-	background-color: $background;
+	background-color: #fff;
 }
 
 // SECTION 5: Testimonials 2 --------------------------------
 .section5 {
-	background-color: #f0f0f0;
+	background-color: $background;
 	background: url(../../images/image4.jpg) no-repeat center center fixed;
 	background-image:
 		linear-gradient(
