@@ -12,7 +12,7 @@
 
 
 body {
-	background-color: $background;
+	//background-color: $background;
 }
 
 // SECTION 1: Intro ----------------------------------------
@@ -53,7 +53,7 @@ body {
 .section2 {
 	background-color: #fff;
 	.logistics {
-		background-color: $orange;
+		background-color: #fff;
 		.empty {
 			margin: 0 auto;
 			width: 30%;
@@ -61,7 +61,6 @@ body {
 			border-top: 3px solid $orange;
 		} //empty
 		ul {
-			background-color: $background;
 			padding-top: 3.6rem;
 			padding-bottom: 3.6rem;
 		} //ul
@@ -79,6 +78,9 @@ body {
 		line-height: 6.0rem;
 	} //media
 } //subheading
+.about {
+	text-align: left;
+}
 
 
 // SECTION 3: Testimonials 1 -------------------------------

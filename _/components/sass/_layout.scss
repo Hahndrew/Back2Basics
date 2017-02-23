@@ -61,6 +61,17 @@ body {
 			margin-bottom: 1.2rem;
 		} //h2
 	} //header
+	.about {
+		@include clearfix;
+		padding: 0 gutter()*4 6.6rem gutter()*4;
+		@media (min-width: 940px) {
+			padding: 0 gutter()*2 8.4rem gutter()*2;
+			.about-right {
+				@include push(4);
+				@include span(4);
+			}
+		} //media
+	} //about
 	.core-skills {
 		padding: 0 gutter()*4 6.6rem gutter()*4;
 		@media (min-width: 940px) {
@@ -119,13 +130,14 @@ body {
 	} //core-skills
 
 	.logistics {
+		text-align: left;
 		@include span(full);
 
 		padding: 6.6rem gutter()*4 6.6rem gutter()*4;
 		@media (min-width: 940px) {
 			padding: 8.4rem gutter()*2 8.4rem gutter()*2;
 		} //media
-		
+
 		ul {
 			margin: 0 auto;
 			@media (min-width: 591px) {
