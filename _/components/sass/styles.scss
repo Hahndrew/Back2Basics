@@ -15,6 +15,25 @@ body {
 	//background-color: $background;
 }
 
+.subheading {
+	font-family: $display-font;
+	font-weight: 200;
+	font-size: 3.0rem;
+	color: #212121;
+	line-height: 4.2rem;
+
+	@media (min-width: 591px) {
+		font-size: 4.8rem;
+		line-height: 6.0rem;
+	} //media
+} //subheading
+.empty {
+	margin: 0 auto;
+	width: 30%;
+	width: 4.0rem;
+	border-top: 3px solid #212121;
+} //empty
+
 // SECTION 1: Intro ----------------------------------------
 .section1 {
 	background: url(../../images/image1.jpg) no-repeat center center fixed;
@@ -52,32 +71,7 @@ body {
 // SECTION 2: About ----------------------------------------
 .section2 {
 	background-color: #fff;
-	.logistics {
-		background-color: #fff;
-		.empty {
-			margin: 0 auto;
-			width: 30%;
-			width: 4.0rem;
-			border-top: 3px solid $orange;
-		} //empty
-		ul {
-			padding-top: 3.6rem;
-			padding-bottom: 3.6rem;
-		} //ul
-	} //intro
 } //section2
-.subheading {
-	font-family: $display-font;
-	font-weight: 200;
-	font-size: 3.0rem;
-	color: #212121;
-	line-height: 4.2rem;
-
-	@media (min-width: 591px) {
-		font-size: 4.8rem;
-		line-height: 6.0rem;
-	} //media
-} //subheading
 .about {
 	text-align: left;
 }
@@ -125,8 +119,15 @@ body {
 	line-height: 2.4rem;
 }
 
-// SECTION 6: Contact ------------------------------------ 
+// SECTION 6: Logistics ----------------------------------
 .section6 {
+	.logistics {
+		background-color: #fff;
+	} //logistics
+}
+
+// SECTION 7: Contact ------------------------------------ 
+.section7 {
 	background: url(../../images/map.jpg) no-repeat center center;
 	background-image:
 		linear-gradient(
@@ -140,7 +141,7 @@ body {
 	}
 }
 
-// SECTION 7: Footer --------------------------------------
-.section7 {
+// SECTION 8: Footer --------------------------------------
+.section8 {
 
 }
