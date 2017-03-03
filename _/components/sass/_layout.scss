@@ -65,15 +65,15 @@ body {
 		p {
 			margin: 0 auto;
 			max-width: 60.0rem;
-			//padding-top: 4.8rem;
+			padding-top: 4.8rem;
 			padding-bottom: 4.8rem;
 		} //p
 	} //about
 	.core-skills {
 		@include clearfix;
-		padding: 0 gutter()*4 6.6rem gutter()*4;
+		padding: 0 gutter()*4 10.2rem gutter()*4;
 		@media (min-width: 940px) {
-			padding: 0 gutter()*2 8.4rem gutter()*2;
+			padding: 0 gutter()*2 13.8rem gutter()*2;
 			@include span(full);
 		} //media
 
@@ -81,6 +81,7 @@ body {
 			margin-bottom: 6.6rem;
 			@media (min-width: 940px) {
 				margin-bottom: 6.6rem;
+				margin-bottom: 0;
 			}
 			h3 {
 				margin-bottom: 2.4rem;
@@ -108,6 +109,7 @@ body {
 		} //skills
 		.skills-last {
 			@include span(full);
+			margin-bottom: 0;
 
 			@media (min-width: 940px) {
 				@include span(4 last);
