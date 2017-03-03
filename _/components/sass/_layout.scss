@@ -55,29 +55,26 @@ body {
 	} //header
 	.about {
 		@include clearfix;
-		padding: 0 gutter()*4 6.6rem gutter()*4;
+		padding: 0 gutter()*4 7.8rem gutter()*4;
 		@media (min-width: 940px) {
 			padding: 0 gutter()*2 11.4rem gutter()*2;
+			@include push(3);
+			@include span(6);
 		} //media
-			.about-right {
-				text-align: center;
-				p {
-					max-width: 60.0rem;
-					margin: 0 auto;
-					padding-top: 4.8rem;
-					padding-bottom: 4.8rem;
-				} //p
-				@media (min-width: 940px) {
-					@include push(3);
-					@include span(6);
-				} //media
-			} //about-right
+		text-align: center;
+		p {
+			margin: 0 auto;
+			max-width: 60.0rem;
+			//padding-top: 4.8rem;
+			padding-bottom: 4.8rem;
+		} //p
 	} //about
 	.core-skills {
 		@include clearfix;
 		padding: 0 gutter()*4 6.6rem gutter()*4;
 		@media (min-width: 940px) {
 			padding: 0 gutter()*2 8.4rem gutter()*2;
+			@include span(full);
 		} //media
 
 		[class*='skills'] {
