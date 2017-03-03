@@ -41,14 +41,6 @@ body {
 .section2 {
 	@include clearfix;
 	text-align: center;
-	/*
-	padding: 10.2rem gutter()*4;
-	padding-top: 10.2rem;
-	@media (min-width: 940px) {
-		padding: 13.8rem gutter()*2;
-		padding-bottom: 0rem;
-	} //media
-	*/
 	header {
 		padding: 10.2rem gutter()*4 6.0rem gutter()*4;
 		@media (min-width: 591px) {
@@ -66,21 +58,12 @@ body {
 		padding: 0 gutter()*4 6.6rem gutter()*4;
 		@media (min-width: 940px) {
 			padding: 0 gutter()*2 11.4rem gutter()*2;
-			/*
-			.about-right {
-				//text-align: center;
-				@include push(3);
-				@include span(6);
-				p {
-					padding-top: 4.8rem;
-					padding-bottom: 4.8rem;
-				} //p
-			} //about-right
-			*/
 		} //media
 			.about-right {
-				//text-align: center;
+				text-align: center;
 				p {
+					max-width: 60.0rem;
+					margin: 0 auto;
 					padding-top: 4.8rem;
 					padding-bottom: 4.8rem;
 				} //p
@@ -106,6 +89,8 @@ body {
 				margin-bottom: 2.4rem;
 			} //h3
 			p {
+				max-width: 60.0rem;
+				margin: 0 auto;
 				text-align: left;
 				@media (min-width: 600px) {
 					text-align: center;
@@ -195,7 +180,6 @@ body {
 	} //img
 	.credentials {
 		margin: 0 auto;
-
 		@media (min-width: 900px) {
 			width: 55%;
 			max-width: 72.0rem;
@@ -230,7 +214,10 @@ body {
 // SECTION 6: Logistics ---------------------------------
 .section6 {
 	@include clearfix;
-	padding: 13.8rem gutter()*4;
+	padding: 10.2rem gutter()*4;
+	@media (min-width: 940px) {
+		padding: 13.8rem gutter()*2;
+	} //media
 	text-align: center;
 	header {
 		padding-bottom: 8.4rem;
@@ -250,11 +237,18 @@ body {
 			padding-top: 3.8rem;
 			padding-bottom: 3.8rem;
 			margin: 0 auto;
+			/*
 			@media (min-width: 591px) {
 				max-width: 70%;
 			} //media
 			@media (min-width: 1000px) {
 				max-width: 45%;
+			} //media
+			*/
+
+			@media (min-width: 900px) {
+				width: 55%;
+				max-width: 72.0rem;
 			} //media
 		} //ul
 		li {
@@ -263,9 +257,6 @@ body {
 		li:last-child {
 			margin-bottom: 0;
 		} //li:last-child
-		@media (min-width: 591px) {
-			//margin-bottom: 8.4rem;
-		} //media
 		@media (min-width: 940px) {
 			//margin-bottom: 10.2rem;
 		} //media
