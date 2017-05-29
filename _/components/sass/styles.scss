@@ -31,7 +31,7 @@ body {
 	margin: 0 auto;
 	width: 30%;
 	width: 4.0rem;
-	border-top: 3px solid #212121;
+	border-top: 3px solid $tennessee-orange;
 } //empty
 
 // SECTION 1: Intro ----------------------------------------
@@ -70,7 +70,13 @@ body {
 
 // SECTION 2: About ----------------------------------------
 .section2 {
-	background-color: #fff;
+	background-color: $limestone;
+	h2 {
+		color: $tennessee-orange;
+	}
+	h3 {
+		color: $ink;
+	}
 } //section2
 .about {
 	text-align: left;
@@ -92,12 +98,14 @@ body {
 
 // SECTION 4: Credentials ---------------------------------- 
 .section4 {
-	background-color: #fff;
+	background-color: $limestone;
+	h2 {
+		color: $tennessee-orange;
+	}
 }
 
 // SECTION 5: Testimonials 2 --------------------------------
 .section5 {
-	background-color: $background;
 	background: url(../../images/image4.jpg) no-repeat center center fixed;
 	background-image:
 		linear-gradient(
@@ -121,8 +129,12 @@ body {
 
 // SECTION 6: Logistics ----------------------------------
 .section6 {
+	background-color: $limestone;
+	h2 {
+		color: $tennessee-orange;
+	}
 	.logistics {
-		background-color: #fff;
+		background-color: $limestone;
 	} //logistics
 }
 
@@ -135,10 +147,14 @@ body {
 	background: url(../../images/map.jpg) no-repeat center center;
 	background-image:
 		linear-gradient(
-			rgba(0, 0, 0, 0.8),
-			rgba(0, 0, 0, 0.8)
+			rgba(0, 0, 0, 0.7),
+			rgba(0, 0, 0, 0.7)
 		),
 		url(../../images/map.jpg);
+	a {
+		text-decoration: none;
+		color: $tennessee-orange;
+	}
 } //seection7
 
 // SECTION 8: Footer --------------------------------------
